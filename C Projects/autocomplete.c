@@ -42,12 +42,14 @@ void autocomplete(term **answer, int *n_answer, term *terms, int nterms, char *s
 
 int main() {
 
+    // Creates basic term structure
+
     typedef struct term{
         char term[200];
         double weight;
         } term;
         
-
+    
         
     return 0;
 }
